@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Anthony</title>
+    <link rel="stylesheet" href="light-theme.css" id="theme-link">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <div class="container">
+        <button onclick="toggleTheme()">Alternar Tema</button>
+        <div class="profile">
+            <h1>Anthony Gabriel Piovan Dos Santos</h1>
+            
+            <a href="contato.html" target="_blank" class="social-links">
+                <img src="mail.png" alt="mail" class="contact">
+            </a>
+
+            <a href="https://www.linkedin.com/in/anthony-piovan-3a4029301/" target="_blank" class="social-links">
+                <img src="logo-linkedin.png" alt="Linkedin" class="social-icons">
+            </a>
+      
+            <a href="https://www.instagram.com/anthonypiovan14/" target="_blank" class="social-links">
+                <img src="logo-instagram.png" alt="Instagram" class="social-icons instagram">
+            </a>
+         
+            <a href="https://github.com/AnthonyPiovanFourteen" target="_blank" class="social-links">
+                <img src="logo-github.png" alt="GitHub" class="social-icons">
+            </a>
+        </div>
+        <p>
+            Meu nome é <strong>Anthony Gabriel Piovan dos Santos</strong>, trabalho como <strong>Auxiliar de Logística</strong> na Danilla Foods e sou estudante de Analise e Desenvolvimento de Sistemas na <strong>Unimar</strong>.
+        </p>
+
+        <h3> Currículo Profissional</h3>
+            <ul class="jobs-list">
+                <li>
+                    <h4>01/01/2024 (atual) - Danilla Foods</h4>
+                    <h5>Auxiliar de Logística</h5>
+                    <p>
+                        Minhas responsabilidades abrangem desde o rastreamento de mercadorias até o acompanhamento do processo de expedição, assegurando que cada etapa seja executada com precisão e pontualidade. Mantenho registros detalhados da entrada e saída de mercadorias, garantindo uma gestão eficaz dos recursos.
+Um aspecto fundamental do meu trabalho é o contato direto com os clientes. Atuo como ponto de contato principal, fornecendo suporte e respondendo a consultas de forma rápida e eficiente. Minha abordagem proativa para resolver problemas e minha capacidade de comunicação clara são essenciais para manter relacionamentos sólidos com os clientes.
+                    </p>
+                </li>
+                <li>
+                    <h4>01/08/2023 até 01/12/2023 - Danilla Foods</h4>
+                    <h5>Auxiliar Administrativo de Marketing</h5>
+                    <p>
+                        Como Auxiliar Administrativo de Marketing, fui responsável por coordenar o armazenamento e distribuição de amostras e materiais promocionais, mantendo registros detalhados do estoque e facilitando remessas conforme necessário. Colaborei estreitamente com a equipe de representantes de vendas, preparando materiais personalizados e auxiliando na logística de eventos promocionais.
+Minhas habilidades organizacionais e atenção aos detalhes foram essenciais para manter um controle rigoroso sobre os materiais de marketing, garantindo que estivessem sempre prontos para uso. Além disso, minha capacidade de trabalhar em equipe me permitiu colaborar efetivamente com diferentes departamentos para atender às necessidades dos representantes e clientes.
+
+                    </p>
+                </li>
+            </ul>
+
+            <h3> Formação Acadêmica</h3>
+            <ul class="formation">
+                <li>
+                    <h4>01/01/2024 (atual) - Análise e desenvolvimento de sistemas</h4>
+                    <h5>Unimar, Marília/SP</h5>
+                    <p>
+                        Cursando...
+                    </p>
+                </li>
+                <li>
+                    <h4>01/01/2020 até 01/01/2024 Ensino Médio</h4>
+                    <h5>Fundação Bradesco, Marília/SP</h5>
+                    <p>
+                        Concluído  
+                    </p>
+                </li>
+            </ul>
+
+        <h3> Habilidades Principais</h3>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Conhecimento em componentes eletrônicos e Desenvolvimento com Arduino.</li>
+                <li>Comunicação assertiva</li>
+            </ul>
+
+            <h3> Certificações</h3>
+            <ol>
+                <li>HTML Básico - <strong>Fundação Bradesco</strong></li>
+                <li>Compreensão e programação de Arduino - <strong>Senai</strong></li>
+                <li>Python - <strong>Udemy</strong></li>
+            </ol>
+
+            <h3> Idioma</h3>
+            <ul>
+                <li>Inglês - <strong>Intermediario - Transitions 1</strong></li>
+                <li>Espanhol - <strong>Básico</strong></li>
+            </ul>
+            <script>
+                function toggleTheme() {
+                    var themeLink = document.getElementById('theme-link');
+                    var bodyClass = document.body.classList;
+                    if (bodyClass.contains('light-mode')) {
+                        bodyClass.replace('light-mode', 'dark-mode');
+                        themeLink.href = 'dark-theme.css'; // Muda para o tema escuro
+                    } else {
+                        bodyClass.replace('dark-mode', 'light-mode');
+                        themeLink.href = 'light-theme.css'; // Muda para o tema claro
+                    }
+                }
+            </script>
+</body>
+</html>
+</body>
+</html>

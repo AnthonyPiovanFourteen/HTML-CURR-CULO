@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="stylecont.css">
+        <link rel="stylesheet" href="light-theme.css" id="theme-link">
+        <link rel="stylesheet" href="stylenextpag.css">
+    </head>
+    <body class="light-mode">
+        <div class="container">
+            <h1>Entre em contato!!</h1>
+            <a href="mailto:anthonygpiovan14@gmail.com?subject=Olá Anthony">anthonygpiovan14@gmail.com</a>
+            <br><br>
+            <a href="index.html">Voltar</a>
+            <br><br>
+            <button onclick="toggleTheme()">Alternar Tema</button>
+        </div>
+        <script>
+            function toggleTheme() {
+                var themeLink = document.getElementById('theme-link');
+                var bodyClass = document.body.classList;
+                if (bodyClass.contains('light-mode')) {
+                    bodyClass.replace('light-mode', 'dark-mode');
+                    themeLink.href = 'dark-theme.css'; // Muda para o tema escuro
+                } else {
+                    bodyClass.replace('dark-mode', 'light-mode');
+                    themeLink.href = 'light-theme.css'; // Muda para o tema claro
+                }
+            }
+        </script>
+    </body>
+</html>

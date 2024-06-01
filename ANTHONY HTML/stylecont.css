@@ -1,0 +1,25 @@
+/* style.css */
+body {
+    font-family: 'Oswald', sans-serif; /* Define a fonte para todo o corpo do documento */
+    text-align: center; /* Centraliza o texto */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura total da viewport */
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+a {
+    color: #4B0082; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 10px 0; /* Espaçamento vertical para os links */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}

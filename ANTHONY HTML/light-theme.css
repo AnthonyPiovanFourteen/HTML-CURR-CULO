@@ -1,0 +1,5 @@
+/* light-theme.css */
+body.light-mode {
+    background-color: #ffffff;
+    color: #1a1a1a; 
+}
